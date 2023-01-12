@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+section {
+  margin: 0 auto;
+  width: 80vw;
+  height: 90vh;
+  border: 5px solid blue;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.card-1 {
+  background-image: url(images/2.1.jpg);
+}
+.card-2 {
+  background-image: url(images/2.2.jpg);
+}
+.card-3 {
+  background-image: url(images/2.3.jpg);
+}
+.card-4 {
+  background-image: url(images/2.4.jpg);
+}
+
+.card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
